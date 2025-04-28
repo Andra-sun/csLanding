@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Landing from "./components/landing/Landing";
 import Chat from "./components/chatFans/Chat";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import { useState } from "react";
 import TeamIntro from "./components/landing/TeamIntro";
 
@@ -22,6 +23,7 @@ export default function App() {
                     <Routes>
                         <Route path="/" element={<Landing />} />
                     </Routes>
+                    <Footer />
                 </div>
 
                 {showChat && (
