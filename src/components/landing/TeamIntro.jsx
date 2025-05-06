@@ -3,7 +3,7 @@ import IconLogo from "../../assets/icon";
 function TeamIntro() {
     return (
         <section className="relative flex items-center justify-center h-screen dark:bg-black bg-white overflow-hidden">
-            <IconLogo className="absolute size-200 opacity-20" />
+            <IconLogo className="absolute md:size-200 size-170 opacity-20" />
 
             <div className="relative text-center dark:text-white text-gray-800">
                 <h1 className="text-4xl font-extrabold mb-4">
@@ -11,7 +11,6 @@ function TeamIntro() {
                 </h1>
                 <p className="text-lg dark:text-gray-300 max-w-xl mx-auto">
                     O time brasileiro que desafia o mundo no Counter-Strike.
-                    Aqui você acompanha tudo!
                 </p>
             </div>
         </section>
